@@ -1,8 +1,8 @@
 # prisma-generator-fake-data
 
-![Generated with Bing Image Creator. Prompt: create a logo with a cute panda smiling and holding a triangular prisma, digital art](assets/logo.jpg)
+<img src="assets/logo.jpeg" width="600px" alt="Generated with Nano Banana Pro">
 
-<sup><sub>_Generated with Bing Image Creator. Prompt: create a logo with a cute panda smiling and holding a triangular prisma, digital art_</sub></sup>
+<sup><sub>_Generated with Nano Banana Pro._</sub></sup>
 
 ![npm](https://img.shields.io/npm/v/prisma-generator-fake-data)
 ![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/luisrudge/prisma-generator-fake-data/CI.yml?branch=main)
