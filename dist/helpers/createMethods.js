@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createMethods = createMethods;
-const faker_1 = require("@faker-js/faker");
 const internals_1 = require("@prisma/internals");
 const MAX_INT = 2147483647;
 function getFieldDefinition(models, model, field, enums, emptyValueAs) {
@@ -196,15 +195,6 @@ function createFakeFunctionsWithFKs(models, model, enums, functions, emptyValueA
     }
 }
 function generateRandomJson() {
-    const obj = {
-        foo: faker_1.faker.string.uuid(),
-        bar: faker_1.faker.number.int(),
-        bike: faker_1.faker.number.hex(),
-        a: faker_1.faker.string.alphanumeric(),
-        b: faker_1.faker.number.float(),
-        name: faker_1.faker.person.firstName(),
-        prop: faker_1.faker.string.binary(),
-    };
-    return JSON.stringify(obj);
+    return '{ foo: faker.string.uuid(), bar: faker.number.int(), bike: faker.number.hex(), a: faker.string.alphanumeric(), b: faker.number.float(), name: faker.person.firstName(), prop: faker.string.binary() }';
 }
 //# sourceMappingURL=createMethods.js.map
