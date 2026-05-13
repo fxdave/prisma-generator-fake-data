@@ -1,7 +1,5 @@
-dist
 node_modules
 yarn-error.log
-build
 pnpm-debug.log
 .env*
 example/prisma/fake-data.ts
